@@ -26,3 +26,33 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+nav {
+  background: #333;
+}
+a {
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  color: lightblue
+}
+
+.active, .selectedLink {
+  color: white;
+  background: red;
+}
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+  background: darkblue;
+  color: white;
+}
+
+button {
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  background: lightblue
+}

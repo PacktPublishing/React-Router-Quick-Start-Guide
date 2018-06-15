@@ -10,7 +10,7 @@ export class StockListComponent extends Component {
         console.log(match);
         return (
             <div>
-                Inside User Component
+                Inside Stock Component
             </div>
         );
     }
