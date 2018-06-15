@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Link, NavLink } from 'react-router-dom';
 
 export const CategoryComponent = ({ match }) => {
     return (
@@ -8,6 +8,20 @@ export const CategoryComponent = ({ match }) => {
                 <h4> Root: </h4>
                 <h5> path: {match.path}, isExact: {match.isExact.toString()}</h5>
             </div>
+            <nav>
+                <Link
+                    to={`${match.url}/pictures`}>
+                    Pictures
+                </Link>
+                <NavLink
+                    to={`${match.url}/books`}
+                    activeStyle={{
+                        background: 'orange'
+                    }}>
+                    books
+                </NavLink>
+            </nav>
+
 
             <Route
                 path={`${match.url}/pictures`}
