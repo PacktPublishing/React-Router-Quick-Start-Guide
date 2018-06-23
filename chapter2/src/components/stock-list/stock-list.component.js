@@ -40,7 +40,7 @@ export class StockListComponent extends Component {
         console.log('Inside StockList component\'s componentWillMount fn');
     }
     render() {
-        const { history, location, match, staticContext } = this.props;
+        const { match } = this.props;
 
         return (
             <div>
