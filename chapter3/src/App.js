@@ -24,7 +24,7 @@ class App extends Component {
                         Home
                     </Link>
                     <Link
-                        to="/dashboard"
+                        to="/dashboard/"
                         innerRef={this.refCallback}>
                         Dashboard
                     </Link>
@@ -124,6 +124,12 @@ class App extends Component {
                     path="/stocks"
                     component={StockListComponent}
                 />
+
+                <Route
+                    path="['category', 'stocks']"
+                    render={() => {
+                        return <div> Inside some route </div>
+                    }} />
                 <Footer />
             </div >
         );

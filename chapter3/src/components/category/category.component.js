@@ -22,7 +22,6 @@ export const CategoryComponent = ({ match }) => {
                 </NavLink>
             </nav>
 
-
             <Route
                 path={`${match.url}/pictures`}
                 render={({ match }) => {
