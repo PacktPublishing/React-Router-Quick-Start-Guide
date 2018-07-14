@@ -22,31 +22,62 @@ class App extends Component {
           </Link>
         </nav>
         <main>
-          <Route
+          {/* Redirect / to login */}
+          {/* <Route
             path="/"
             render={() => <Redirect to="/login" />}
-            exact />
+            exact /> */}
+
           <Route
             path="/login"
             component={LoginComponent}
           />
+
+          {/* protected <Route> */}
           <Route
             path="/user"
             component={UserComponent}
           />
+
+          {/* Home component redirects to /dashboard with to prop as object */}
           <Route
             path="/home"
             component={HomeComponent}
             exact
           />
-          <Route
+
+          {/* <Route
             path="/dashboard"
             component={DashboardComponent}
-          />
+          /> */}
+
+          {/* Switch component in SettingsComponent */}
           <Route
             path="/settings"
             component={SettingsComponent}
           />
+
+
+          {/* <Switch>
+            <Route
+              path="/"
+              component={LoginComponent}
+            />
+            <Route
+              path="/dashboard"
+              component={DashboardComponent}
+            />
+          </Switch> */}
+          <Switch>
+            <Route
+              path="/github"
+              component={LoginComponent}
+            />
+            <Route
+              path="/github/:userId"
+              component={DashboardComponent}
+            />
+          </Switch>
 
           {/* <Switch
             location={{

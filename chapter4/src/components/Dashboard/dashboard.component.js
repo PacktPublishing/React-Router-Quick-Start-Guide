@@ -6,7 +6,7 @@ export class DashboardComponent extends Component {
         return (
             <div>
                 In DashboardComponent <br />
-                From : {location.state.from ? location.state.from : ''}
+                From : {location.state && location.state.from ? location.state.from : ''}
             </div>
         )
     }
