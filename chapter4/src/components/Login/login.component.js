@@ -36,10 +36,20 @@ export class LoginComponent extends Component {
     }
 
     render() {
+        const { location: { state } } = this.props;
         if (this.state.isUserLoggedIn) {
+            // return (
+            //     <Redirect to={{
+            //         pathname: "/user",
+            //         state: {
+            //             from: this.props.match.url,
+            //             userName: this.state.userName
+            //         }
+            //     }} />
+            // )
             return (
                 <Redirect to={{
-                    pathname: "/user",
+                    pathname: state && state.callbackURL || "/user",
                     state: {
                         from: this.props.match.url,
                         userName: this.state.userName

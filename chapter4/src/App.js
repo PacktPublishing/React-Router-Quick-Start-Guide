@@ -7,6 +7,7 @@ import { LoginComponent } from './components/Login/login.component';
 import { UserComponent } from './components/User/user.component';
 import Footer from './components/Footer/footer.component';
 import { SettingsComponent } from './components/Settings/settings.component';
+import { StocksComponent } from './components/Stocks/stocks.component';
 class App extends Component {
   render() {
     return (
@@ -15,6 +16,10 @@ class App extends Component {
           <Link
             to="/dashboard">
             Dashboard
+          </Link>
+          <Link
+            to="/stocks">
+            Stocks
           </Link>
           <Link
             to="/settings">
@@ -44,6 +49,11 @@ class App extends Component {
             path="/home"
             component={HomeComponent}
             exact
+          />
+
+          <Route
+            path="/stocks"
+            component={StocksComponent}
           />
 
           {/* <Route
