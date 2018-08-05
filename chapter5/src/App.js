@@ -60,16 +60,14 @@ class App extends Component {
   }
 
   render() {
-    // include this in place of HashRouter to see BrowserRouter in action
-    {/* 
-        <BrowserRouter
+    // include this in place of BrowserRouter to see HashRouter in action
+    {/* <HashRouter hashType="hashbang"> */ }
+    return (
+      <BrowserRouter
         basename="/admin"
         keyLength={10}
-        getUserConfirmation={this.userConfirmationFunc}> 
-      */}
-    return (
+        getUserConfirmation={this.userConfirmationFunc}>
 
-      <HashRouter hashType="hashbang">
         <div className="container">
           <nav>
             <Link to="/">Home</Link>
@@ -102,9 +100,9 @@ class App extends Component {
             handleClose={this.handleClose.bind(this)}
           />
         </div >
-      </HashRouter>
+      </BrowserRouter>
     )
-    // </BrowserRouter>
+    // </HashRouter >
   }
 }
 
