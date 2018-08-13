@@ -8,8 +8,7 @@ const styles = StyleSheet.create({
         width: window.width,
         height: window.height,
         backgroundColor: 'lightblue',
-        padding: 20,
-        justifyContent: 'center',
+        padding: 20
     }
 });
 

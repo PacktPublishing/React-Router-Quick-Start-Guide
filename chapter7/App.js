@@ -1,21 +1,25 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { NativeRouter, Link, Route } from 'react-router-native';
+import { NativeRouter, BackButton, Link, Route } from 'react-router-native';
 import SideMenu from 'react-native-side-menu';
 import { ContentView } from './components/ContentView/content-view.component';
 import { Menu } from './components/Menu/menu.component';
 
-export default class App extends React.Component {
+export default class App extends Component {
   render() {
     const menu = <Menu />;
-
+    const initialEntries = ['/', '/dashboard'];
+    const initialIndex = 1;
     return (
-      <NativeRouter>
+      <NativeRouter initialEntries={initialEntries} initialIndex={initialIndex}>
+
         <View style={styles.container}>
+          <BackButton />
           <SideMenu menu={menu}>
             <ContentView />
           </SideMenu>
         </View>
+
       </NativeRouter>
     );
   }
