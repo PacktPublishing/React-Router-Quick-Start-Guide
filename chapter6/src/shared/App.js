@@ -31,14 +31,14 @@ export class App extends Component {
                         if (!__isBrowser__) {
                             return (
                                 <div>
-                                    Inside Home Route, Message - {staticContext.message}
+                                    Inside Home Route (SSR), Message - {staticContext.message}
                                 </div>
                             );
                         }
 
                         return (
                             <div>
-                                Inside Home Route, Message
+                                Inside Home Route (Browser), Message
                             </div>
                         );
                     }}

@@ -13,23 +13,20 @@ app.use(express.static('dist/public'));
 
 app.get('*', (req, res) => {
 
+    // uncomment th below lines to see how matchPath is used to match the requested URL
     // const matchedObject = matchPath(req.url, {
     //     path: '/dashboard/',
     //     strict: true
     // });
 
-    // console.log(matchedObject);
+    // const matchedObject = matchPath(req.url, '/github/:githubID');
 
-    const matchedObject = matchPath(req.url, '/github/:githubID');
-
-    console.log(matchedObject);
-
+    // matchPath is used to check if any of the routes match the request URL
     const isRouteAvailable = ROUTES.find(route => {
         return matchPath(req.url, route);
     })
 
-    console.log('isRouteAvailable - ', isRouteAvailable);
-
+    // rendering a 404 page
     if (!isRouteAvailable) {
         res.status(404);
         res.send(
@@ -58,8 +55,7 @@ app.get('*', (req, res) => {
         </StaticRouter>
     );
 
-    console.log(context);
-
+    // status set by the component redireting the user using the <Redirect> component
     if (context.url) {
         res.redirect(context.status, 'http://' + req.headers.host + context.url);
     } else {
@@ -83,6 +79,4 @@ app.get('*', (req, res) => {
 
 app.listen(PORT, () => {
     console.log(`SSR React Router app running at ${PORT}`);
-})
-
-// <script src='/bundle.js' defer></script>
+});
