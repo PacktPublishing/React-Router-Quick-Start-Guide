@@ -1,0 +1,4 @@
+#Thu Aug 16 16:06:13 IST 2018
+base.0=/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

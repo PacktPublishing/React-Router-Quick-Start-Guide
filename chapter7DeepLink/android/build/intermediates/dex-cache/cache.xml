@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/sganatra/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_f3db239590ce9d3dcda0fc3664ea1766ff070587.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e31331bdf6b5952badadbfc171f04b95c55d3b16">
+        <dex dex="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.55.4_82d6389114e33985463e9b8e6377bf4abf9b4815.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_358e04d09737799c1266bd9846828cec665501d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sganatra/.m2/javax/inject/javax.inject/1/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_3b3bd454f7604c8dcf3a4e2dbfe0510112901ca8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sganatra/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_feccdf14a2039326954442275c0ca95c8cf5c6dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sganatra/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_eb8ba42f05fe834c0613ea3b4143a055d274e2bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_7088cc29f01f5ec236359fff39d3d3b374a7dde8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sganatra/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_37bdb764de9fbcc3e4b6eca20347ee1d3a5d22ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sganatra/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_f905406d7ec46730ba6a1e10ee8ff184f4855b52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sganatra/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_b608adef1bc4a9f87b463f34f2dc9fc5d05ff7fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_92e4c9f69fc9483e2187f454d6013fe5af344e49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_f91e996a360b47a656f2369a0421c3ce50aefa7c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sganatra/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_95fd8aa6e1224e93daf1c28cdd158183ffc50879.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_0ab3e3647e93ccd27fe146a7621b176de8c644cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_f02982d916cd54ea7edb705fc0dd79a64a90e257.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_9b3ad0a774fc7ba311e8b62926c3c950a571ebce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_20b9cee56c0d09f5f836fe665ca6de2e2c38c41f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_817a9bf8c7381bc2db7939b95707f34c63a910c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_42f13c64fe94ecc181ae6a22698453d017524ceb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_c4296e6b0959515eeb1a7a37a107666ece19e032.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/sganatra/work/github/react-router-demo-app/chapter7DeepLink/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_6816422070f25946ba54a9c2a9ec546f72c7e4f4.jar" />
+    </item>
+
+</items>
