@@ -1,29 +1,9 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import { NativeRouter, BackButton, Link, Route } from 'react-router-native';
+import { StyleSheet, View } from 'react-native';
 import SideMenu from 'react-native-side-menu';
+import { BackButton, NativeRouter } from 'react-router-native';
 import { ContentView } from './components/ContentView/content-view.component';
 import { Menu } from './components/Menu/menu.component';
-
-export default class App extends Component {
-  render() {
-    const menu = <Menu />;
-    const initialEntries = ['/', '/dashboard'];
-    const initialIndex = 1;
-    return (
-      <NativeRouter initialEntries={initialEntries} initialIndex={initialIndex}>
-
-        <View style={styles.container}>
-          <BackButton />
-          <SideMenu menu={menu}>
-            <ContentView />
-          </SideMenu>
-        </View>
-
-      </NativeRouter>
-    );
-  }
-}
 
 const styles = StyleSheet.create({
   container: {
@@ -35,3 +15,23 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-start',
   },
 });
+
+export default class App extends Component {
+  render() {
+    const menu = <Menu />;
+    const initialEntries = ['/', '/dashboard'];
+    const initialIndex = 1;
+    return (
+      <NativeRouter initialEntries={initialEntries} initialIndex={initialIndex}>
+        <View style={styles.container}>
+          <BackButton />
+          <SideMenu menu={menu}>
+            <ContentView />
+          </SideMenu>
+        </View>
+      </NativeRouter>
+    );
+  }
+}
+
+
