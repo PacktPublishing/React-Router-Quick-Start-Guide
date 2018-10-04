@@ -11,8 +11,8 @@ This is the code repository for [React Router Quick Start Guide](https://www.pac
 ## What is this book about?
 React Router is the routing library for React, and it can be used in both React Web and React Native applications. This book is a simple way to get started with React Router and harness its full power for your applications.
 
-This book covers the following exciting features: <First 5 What you'll learn points>
-*	Create your first Route using the Route component
+This book covers the following exciting features:
+* Create your first Route using the Route component
 * Protect routes from unauthorized access by using the redirect component
 * Navigate to your defined route using Link and NavLink
 * Configure BrowserRouter and HashRouter using various props
